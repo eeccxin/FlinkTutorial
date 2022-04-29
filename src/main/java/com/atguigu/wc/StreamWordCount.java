@@ -24,7 +24,7 @@ public class StreamWordCount {
         System.out.println(args);
         // 创建流处理执行环境
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-        env.setParallelism(4);//设置并行度
+        env.setParallelism(2);//设置并行度
 //        env.disableOperatorChaining();
 
        // 方式1：从文件中读取数据
